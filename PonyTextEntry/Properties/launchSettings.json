@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PonyTextEntry": {
+      "commandName": "Project",
+      "commandLineArgs": "render -e \"E:\\\\桌面工作目录\\\\正在进行的\\\\My Little Pony Novel\\\\无限维度\\\\main.pony\" -o \"E:\\\\桌面工作目录\\\\正在进行的\\\\My Little Pony Novel\\\\-81\\\\out.pdf\""
+    }
+  }
+}

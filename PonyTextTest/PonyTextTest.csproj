@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="itext7" Version="7.1.13" />
+    <PackageReference Include="Microsoft.DotNet.PlatformAbstractions" Version="5.0.0-preview.5.20278.1" />
+    <PackageReference Include="nunit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PonyText.Common\PonyText.Common.csproj" />
+    <ProjectReference Include="..\PonyTextRenderer.Markdown\PonyTextRenderer.Markdown.csproj" />
+    <ProjectReference Include="..\PonyTextRenderer.Pdf\PonyTextRenderer.Pdf.csproj" />
+    <ProjectReference Include="..\PonyText\PonyText.csproj" />
+  </ItemGroup>
+
+</Project>

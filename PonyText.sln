@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PonyText", "PonyText\PonyText.csproj", "{627DAEED-C72B-42D6-817A-80816EC4768B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EB33322B-4EF0-47D5-A402-52FF721ED681}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		PonyWriterSyntax.txt = PonyWriterSyntax.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PonyTextTest", "PonyTextTest\PonyTextTest.csproj", "{19B65A11-B855-4ED1-9D4C-8B6DA66E045A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PonyTextRenderer.Pdf", "PonyTextRenderer.Pdf\PonyTextRenderer.Pdf.csproj", "{91051D6D-8641-41ED-9E17-FD59F7E8F761}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PonyTextRenderer.Markdown", "PonyTextRenderer.Markdown\PonyTextRenderer.Markdown.csproj", "{7E7D5D7F-2B89-43CF-95FC-BB05A6D625C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PonyText.Common", "PonyText.Common\PonyText.Common.csproj", "{B806CA32-66D0-4BAD-957B-4F15A4AF497E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PonyTextEntry", "PonyTextEntry\PonyTextEntry.csproj", "{DF1F92D8-F1BA-4815-AA87-81FA0BFF9059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PonyText.Dynamic", "PonyText.Dynamic\PonyText.Dynamic.csproj", "{F543BBDD-E6E9-4F59-A0AE-1439F2E4A9AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{627DAEED-C72B-42D6-817A-80816EC4768B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627DAEED-C72B-42D6-817A-80816EC4768B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627DAEED-C72B-42D6-817A-80816EC4768B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{627DAEED-C72B-42D6-817A-80816EC4768B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B65A11-B855-4ED1-9D4C-8B6DA66E045A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B65A11-B855-4ED1-9D4C-8B6DA66E045A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B65A11-B855-4ED1-9D4C-8B6DA66E045A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B65A11-B855-4ED1-9D4C-8B6DA66E045A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91051D6D-8641-41ED-9E17-FD59F7E8F761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91051D6D-8641-41ED-9E17-FD59F7E8F761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91051D6D-8641-41ED-9E17-FD59F7E8F761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91051D6D-8641-41ED-9E17-FD59F7E8F761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7D5D7F-2B89-43CF-95FC-BB05A6D625C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7D5D7F-2B89-43CF-95FC-BB05A6D625C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7D5D7F-2B89-43CF-95FC-BB05A6D625C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7D5D7F-2B89-43CF-95FC-BB05A6D625C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B806CA32-66D0-4BAD-957B-4F15A4AF497E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B806CA32-66D0-4BAD-957B-4F15A4AF497E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B806CA32-66D0-4BAD-957B-4F15A4AF497E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B806CA32-66D0-4BAD-957B-4F15A4AF497E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1F92D8-F1BA-4815-AA87-81FA0BFF9059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1F92D8-F1BA-4815-AA87-81FA0BFF9059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1F92D8-F1BA-4815-AA87-81FA0BFF9059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1F92D8-F1BA-4815-AA87-81FA0BFF9059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F543BBDD-E6E9-4F59-A0AE-1439F2E4A9AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F543BBDD-E6E9-4F59-A0AE-1439F2E4A9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F543BBDD-E6E9-4F59-A0AE-1439F2E4A9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F543BBDD-E6E9-4F59-A0AE-1439F2E4A9AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B33C2552-8CEF-48D0-9F13-F39852B62608}
+	EndGlobalSection
+EndGlobal

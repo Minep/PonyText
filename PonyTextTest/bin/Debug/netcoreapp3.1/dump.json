@@ -1,0 +1,2521 @@
+{
+    "TextElementType": "TextElementCollection",
+    "CustomProperty": {},
+    "Paragraphs": [
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": []
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 1
+                    },
+                    "Text": "PonyText"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "[toc]"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "此README使用PonyText生成。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 2
+                    },
+                    "Text": "这是什么？"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "PonyText是一个非“所见即所得”的文本排版工具（如MS Word），是一个简易的文本排版以及预处理系统。用户将通过编写纯文本文件，从而获得排版后的文本。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 2
+                    },
+                    "Text": "为什么会有这东西？"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "关于这个问题，这东西其实是在我写小说时想到的。写过小说的都知道，人物/地点/物体的名称并不是很好起，有时因为想起个好名字，从而导致陷入一个一筹莫展的死循环中——名字想不到，剧情无法进展。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "不过最终，你还是会起了一个名字，并且在后续的情节推动中使用了这个名字。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "这确实很美好，但是有一天，因为某些原因你想要去更改这个名字（可能是后来发现这个名字不是很妥当，比如，你想到了一个更好的名字，或者原来的名字蕴含了种族歧视，导致你的部分读者不高兴了）。但是你发现，你的情节已经推动到了不知道什么地方去了，通过查找发现这个名字在文档中出现了上百次。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "当然了，你可以直接全局替换。这在大部分场合是可以的，但是有些情况可能并不允许。现在我们来看个例子："
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "假设你有一个角色，叫做 “星光”，你的文本中有这两句话："
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "quote",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "他站在满天的星辰之下，似乎在思考着什么。星光照耀着他的面庞，照出了他脸上的沧桑。"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "以及"
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "quote",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "星光兴高采烈的说道：……"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "这个时候，一般是你写小说的某个时候，你发现“星光”这个名字可能有些模棱两可（ambiguous），于是你想到了一个更好地名字：“星光熠熠”。于是你进行全局替换，你会得到："
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "quote",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "他站在满天的星辰之下，似乎在思考着什么。星光熠熠照耀着他的面庞，照出了他脸上的沧桑。"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "以及"
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "quote",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "星光熠熠兴高采烈的说道：……"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "当然，第二句是没有问题，我们能立刻反映出来“星光熠熠”是个人物。但是第一句就有点问题了。这给人的反应是：星光熠熠这个角色拿着某种光源，在照射着那个人的脸庞。于是在上下文中，这意思立刻就改变了。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "出于这个原因，我就编写了PonyText，通过引入“宏处理”来解决这一问题，顺带做了排版功能。同时，PonyText也算是我对编译原理这门课的一个实践和理解。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 2
+                    },
+                    "Text": "这东西可以做什么？"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "在目前的版本中，PonyText可以……"
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "lst",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "宏处理"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "基本的排版（对齐，加粗，字号，字体等……）"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "文本结构化（这样你就可以方便的使用Git来版本控制了）"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 2
+                    },
+                    "Text": "和LaTeX有点像，这是重复造轮子吗？"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "我承认，这有些“重复造轮子”。你可以看到，我用了“有些”，而不是“确实”。虽然PonyText和LaTeX功能基本一样，甚至在某些方面不如LaTeX（PonyText无法渲染数学文本，而且PonyText不是图灵完备的）。但这也并不碍事，毕竟PonyText的初衷只是实现简单的文本预处理。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "当然了，对比LaTex，PonyText的语法是简洁易懂的，学习曲线并没有LaTeX那么陡峭（i.e. 门槛稍低）。并且和LaTeX一样，支持对指令的拓展。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 2
+                    },
+                    "Text": "PonyText快速上手"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "和编程语言不一样，PonyText只是一个文字排版语言。这就意味着PonyText主要以正常的文字、段落为主。和LaTeX一样，PonyText通过调用一系列的命令（在PonyText里叫做预处理器）来执行一些对文本的操作。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 3
+                    },
+                    "Text": "段落"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "和LaTeX一样，PonyText使用了正常的段落标识——换行表示另起一段。为了方便展示，我们用"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "\\n"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "表示一个换行操作（按一下回车键）:"
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "quote",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "文学程序是用自然语言（比如英语）写出来的对程序逻辑的解释，程序中交织点缀着宏和传统源代码段。在文学编程的源文件中，宏很简单，它或与标题类似，或是解决编程问题时用人类语言描述抽象的解释性短语。它把代码段或更低层次的宏隐藏了起来，且与计算机科学教学时经常用到的，用伪代码写的算法相似。"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "text.style": "b"
+                            },
+                            "Text": "\\n"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "这些任意解释的短语成为新的精确的操作符，操作符由程序员在运行过程中创建，组成了在基本编程语言之上的“元语言”。 预处理器用于替换任意层级，说得更准确些是“在'网'和宏之间创建联系”。"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 3
+                    },
+                    "Text": "如何使用预处理器"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "一个预处理器的调用看上去是这个样子的："
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "code",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "@define MACRO \"这是一个字符串。\""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "我们可以看出，符号"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "@"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "后面（就是我们电子邮箱地址中的那个符号！），紧跟着的是你需要使用的预处理的名称。而之后则是这个预处理器将会接受到的参数，每个参数之间以空格作为分隔。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "当然了，参数有不同的类型，这点我们会在后面看到。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 3
+                    },
+                    "Text": "我们在哪里调用这些预处理器？"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "PonyText使用 "
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "\\${.....}"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": " 来标记"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "text.style": "b"
+                    },
+                    "Text": "一个"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "调用可能会出现的地方，如："
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "code",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "\\${@define MACRO \"这是一个字符串。\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "这个意思就是说，我们调用了一个名字叫做"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "define"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "的预处理器，并传进了两个参数。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "注意，这里我把"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "text.style": "b"
+                    },
+                    "Text": "“一个”"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "特地加粗了一下，这是因为"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "\\${.....}"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "只能放置一个调用，事实上，"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "text.style": "b"
+                    },
+                    "Text": "这是代表着一个内联调用"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "！在目前版本中，内联调用的预处理器的返回内容"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "text.style": "b"
+                    },
+                    "Text": "必须"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "为一个普通的字符串，这也就是说，返回值不能是一个文学结构（之后会提到）。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "当然，PonyText中还存在一种叫做“文学调用”的东西，在这个调用里面，事情就会相当的宽松一点——他允许你调用一个或者多个任意返回值的预处理器。不过需要注意的一点是，在文学调用中返回的数据，将会作为另一个单独的自然段呈现出来。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "我们利用"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "\\$ .... \\$"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "进行标记一个文学调用。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "code",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "\\$"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "    @define MACRO \"字符串1\""
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "    @define MACRO2 \"字符串2\""
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "    @maintitle \"文档标题\""
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "\\$"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "有过编程经验的读者可以看出，每个语句（调用）之间没有冒号分隔。这就意味着换行符在PonyText里有特殊的含义。不管是段落也好，还是调用也好，都是通过换行符分割的。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "text.style": "b"
+                    },
+                    "Text": "注意："
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": " 为了保证可读性，在标记多行调用时，开头的"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "\\$"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "text.style": "b"
+                    },
+                    "Text": "后面"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "，以及结尾的"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "\\$"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "text.style": "b"
+                    },
+                    "Text": "前面"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "，都必须要放置一个"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "text.style": "b"
+                    },
+                    "Text": "换行符"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "。这也就是说："
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "code",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "\\$ @define MACRO \"字符串1\""
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "@define MACRO2 \"字符串2\""
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "@maintitle \"文档标题\""
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "\\$"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "和"
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "code",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "\\$ @define MACRO \"字符串1\""
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "@define MACRO2 \"字符串2\""
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "@maintitle \"文档标题\"\\$"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "都是非法的。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 3
+                    },
+                    "Text": "使用宏"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "我们其实已经可以看到定义宏的命令是"
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "code",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "@define 宏名称 宏的值"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "如果说我们现在有一个叫做`MACRO1`的宏变量，我们可以通过这个方法去使用他："
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "code",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "\\${MACRO1}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "这个其实是"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "\\${@echo MACRO1}"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "的简写。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "声明宏的时候，不用担心保留字问题，因为PonyText没有保留字！哪怕是命令的名称也没问题，比如你可以这么干："
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "\\${@define define \"define\"}"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "。这一点问题都没有！不过为了可读性，建议不要这么做。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 3
+                    },
+                    "Text": "全部整合起来"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "那么我们在开头给的例子可以写成："
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "code",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "\\$"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "    @define STARLIGHT \"星光熠熠\""
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "\\$"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "他站在满天的星辰之下，似乎在思考着什么。星光照耀着他的面庞，照出了他脸上的沧桑。"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "\\${STARLIGHT}兴高采烈的说道：……"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "一切都十分完美，这样一来，当我们再想改名字时，我们只需要修改对应的宏变量的值就可以了。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "不过还有一点需要注意一下，虽然并不是很致命，但是我觉得还是值得说明一下。我们注意到上面的最后一行："
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "code",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "\\${STARLIGHT}兴高采烈的说道：……"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "这和"
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "code",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "\\${STARLIGHT}"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "兴高采烈的说道：……"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "不是一回事。虽然"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "\\${STARLIGHT}"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "在预处理阶段都会被替换成我们定义的“星光熠熠”。但是在第二个示范中，我们的"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "\\${STARLIGHT}"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "后面跟了个回车（换行符），根据我们之前说过的 “PonyText段落的定义”，我们立刻可以发现这样的"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "\\${STARLIGHT}"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "，会被PonyText识别为一个单独的段落，所以最后渲染出来是："
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "code",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "星光熠熠"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "兴高采烈的说道：……"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "而不是"
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "code",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "星光熠熠兴高采烈的说道：……"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 3
+                    },
+                    "Text": "注释"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "正如同其他的编程语言一样，PonyText提供了注释，用来帮助提升可读性。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 4
+                    },
+                    "Text": "单行注释"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "一个单行注释使用"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "#"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "来标记。如："
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "code",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "# 这是一个单行注释"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 4
+                    },
+                    "Text": "多行注释"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "很遗憾，PonyText不支持多行注释。因为PonyText是一门文学程序，这也就是说PonyText本身就具有着极高的可读性。事实上，PonyText鼓励使用者尽量避免大规模使用注释。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 3
+                    },
+                    "Text": "再论调用"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "在前面，我们只是说明了一个调用长什么样子的，但是没有给出正式的定义。正式地讲，一个调用是这个样子的："
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "code",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "@<name> [<arg><space>+]*"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "这是什么意思？学过编译原理的可能一下就看出来了。"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "<name>"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "是一个标识符，也就是一个"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "text.style": "b"
+                    },
+                    "Text": "只有26个英文字母大小写以及下划线的字符串"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "，如"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "Ae2_ss"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "，"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "__Hyhj_2"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "是合法的，而形如"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "2Hy2"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "以及"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "#yhj12_2"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "是不合法的，这和几乎绝大多数编程语言的变量名/函数名定义是一样的。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "后面的"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "[<arg><space>+]*"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "表示可以跟随零个或多个参数，在这里，我用"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "<space>+"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "来强调每个参数之间是需要由一个或多个空格来分割的。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 3
+                    },
+                    "Text": "参数类型"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "说了那么多参数，我们似乎还没有提到PonyText都支持那些类型的参数。在PonyText里面，参数，也就是上面的"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "<arg>"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "，有这几种类型："
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "lst",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "字符串"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "数字"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "字典"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "调用"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "文学结构"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "字符串和数字可能都很熟悉，前者是任何用冒号围住的字符串，特殊字符需使用"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "\\"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "转义，后者就是普通的数字，如"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "-123"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "，"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "12.3"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "，都是合法数字，但是"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "+123"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "，"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "12.3.2"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "，"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "2e-2"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "不是合法数字（是的，PonyText不支持科学计数法）。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "字典，其实就是键值对，大家肯定也熟悉。在PonyText中，一个合法的字典是这样的："
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "code",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "[\"key1\":\"val1\" key2:val2 key3:3]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "那么，后面的调用和文学结构又是什么东西？"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "关于“调用”，其实就是说你可以命令里面嵌套命令。这是通过使用成对的括号："
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "(...)"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "来实现的，如："
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "code",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "@maintitle (@echo MY_TITLE)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "PonyText执行到这种嵌套时，会去执行括号里面的命令，将命令返回的结果（如果有的话）作为参数。（当然，如果没有结果的话，那就是一个空参数。虽然现阶段的PonyText不会报错，但这一点意义都没有。）"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "文学结构，顾名思义，就是代表着一个普通的PonyText文档中的结构，你可以把这个数据结构看成是另一个文档。换句话讲，每一个PonyText的源文件就是一个文学结构。而文学结构在PonyText中的定义为：自然段，命令调用，文学结构的自由组合。用BNF写出来就是："
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "code",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "文学结构 ::= 自然段落 "
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "            | 命令调用 "
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "            | 文学结构"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "            | ;"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "PonyText中的对内置预处理器"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "@include"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "的调用就是一个返回类型为“文学结构”的调用。他的作用很显然：允许你将另一个PonyText文本注入到当前调用的位置，这就像是C语言中的"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "#include"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "、Python的"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "#import"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "或者是LaTeX的"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "\\include"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "。"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "当然，除了使用"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "@include"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "以外，也可以使用标记"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "md.ilregion": "code"
+                    },
+                    "Text": "\\% .... \\%"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "来标记一个文学区域。你可以把文学区域想象成一个嵌套在当然PonyText文档中的一个新的PonyText文档。（这就像是Java里的匿名类一样）"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 2
+                    },
+                    "Text": "内置预处理器一览"
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "具体的描述请参考"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "\n"
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "Wiki："
+                },
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {},
+                    "Text": "[内置预处理器](http://....)"
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "ordlst",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "include <filename>"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": " 引入另一个PonyText文件。"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "use <namespace>"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": " 引入拓展包。"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "define <id> <val>"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": " 定义一个名称为"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "<id>"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "，初始值为"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "<val>"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "的宏。"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "set <key> <val>"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": " 更改当前上下文的设置。"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "align <text> <direction> [<settings>]"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": " 设置文本的对齐方式"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "maintitle <title>"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": " 在此处生成主标题"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "heading <title> <level>"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": " 在此处生成可分层的标题。"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "join [<args>]*"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": " 拼接任意文本。"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "cat [<args>]*"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": " 拼接任意文本为一个自然段。"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "br"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": " 此处换行（依然是在同一个自然段内）。"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "format <formatString> [<args>]*"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": " 将字符串中的一个或多个格式项替换为指定对象的字符串表示形式。"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "b <text>"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": " 给文本追加粗体样式。"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "i <text>"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": " 给文本追加斜体样式。"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "u <text>"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": " 给文本追加下划线。"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "d <text>"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": " 给文本追加删除线。"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "color <text> <color_argb>"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": " 更改文本颜色。"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {
+                                "md.ilregion": "code"
+                            },
+                            "Text": "font <text> <settings>"
+                        },
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": " 更改文本字体和字号。"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextElementType": "Paragraph",
+            "CustomProperty": {},
+            "Texts": [
+                {
+                    "TextElementType": "TextUnit",
+                    "CustomProperty": {
+                        "render.headingLevel": 2
+                    },
+                    "Text": "内置渲染器一览"
+                }
+            ]
+        },
+        {
+            "TextElementType": "TextElementCollection",
+            "CustomProperty": {
+                "md.region": "ordlst",
+                "__PROCESSOR": "region"
+            },
+            "Paragraphs": [
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "PDF渲染器。"
+                        }
+                    ]
+                },
+                {
+                    "TextElementType": "Paragraph",
+                    "CustomProperty": {},
+                    "Texts": [
+                        {
+                            "TextElementType": "TextUnit",
+                            "CustomProperty": {},
+                            "Text": "Markdown渲染器。（严格来讲，只是负责PonyText转Markdown，转PDF请直接使用PDF渲染器。）"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
